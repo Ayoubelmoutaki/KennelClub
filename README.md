@@ -1,27 +1,20 @@
-# Marrakech Dog Hotel
+# Marrakech Dog Hotel (Fixed)
 
-A single-page React + Tailwind site for a dog hotel in Marrakech.
+This version adds `@vitejs/plugin-react` and an ErrorBoundary to help avoid blank pages in production.
 
-## Local Development
-
+## Dev
 ```bash
 npm install
 npm run dev
 ```
 
 ## Build
-
 ```bash
 npm run build
 npm run preview
 ```
 
-## Deploy on Vercel
-
-1. Push this folder to a new GitHub repo.
-2. On Vercel, **Import Project** and select the repo.
-3. Use these settings:
-   - Framework Preset: **Vite**
-   - Build Command: `npm run build`
-   - Output Directory: `dist`
-4. Deploy.
+## Vercel Settings
+- Framework Preset: **Vite**
+- Build Command: `npm run build`
+- Output Directory: `dist`

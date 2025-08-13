@@ -3,8 +3,18 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+function bootstrap(){
+  const rootEl = document.getElementById('root')
+  if(!rootEl){
+    console.error('Root element #root not found')
+    return
+  }
+  console.log('[DogHotel] mounting app...')
+  createRoot(rootEl).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
+}
+
+bootstrap()
