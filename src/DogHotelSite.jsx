@@ -201,7 +201,7 @@ function Hero() {
           <div className="inline-flex items-center gap-2 rounded-full bg-white/20 px-3 py-1 text-sm backdrop-blur">
             <ThermometerSnowflake className="h-4 w-4" /> 20 Boxes • 10 with A/C
           </div>
-          <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">A caring, playful haven for dogs in Marrakech</h1>
+          <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">A caring, playful heaven for dogs in Marrakech</h1>
           <p className="mt-4 text-white/90 md:text-lg">Premium hotel stays, training + stay packages, daily activities and updates — with optional pick-up, drop-off, and food.</p>
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a href="#pricing" className="rounded-xl bg-amber-700 text-white px-5 py-3 hover:bg-amber-800">See pricing</a>
